@@ -4,7 +4,6 @@ const http = require("http");
 // file system 
 const fs = require("fs");
 
-
 // http 서버에서 전달 받은 request에서 url과 method 값을 출력
 const server = http.createServer((request, response) => {
     console.log(request.url);
