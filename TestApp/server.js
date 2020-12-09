@@ -33,3 +33,7 @@ app.get('/write', function(요청, 응답) {
 // executionpolicy -> restricted라고 나오면
 // set-executionpolicy unrestricted 입력
 // y입력
+
+// nodemon extension (확장자 확대)
+// nodemon server.js --ext .js, .hbs
+// 이후 nodemon server 로 실행가능
