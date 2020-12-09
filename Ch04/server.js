@@ -55,7 +55,7 @@ server.listen(3000, ()=> {
 // nodemon 설치
 // 서버가 업데이트 될 경우 자동으로 재시작해주는 라이브러리
 // npm i -g nodemon
-// i(install), -g(global)
+// i(install), -g(global) - 글로벌로 설치하면 해당 폴더 이외의 폴더에서도 사용 가능
 // 실행문: nodemon server
 
 // express-handlebars 설치
